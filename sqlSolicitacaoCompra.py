@@ -42,7 +42,7 @@ def sql_solicitacao_compra():
     cursor.execute(sql)
     linhas = cursor.fetchall()
 
-    wb = xlsxwriter.Workbook('//192.168.1.177/Users/PC/OneDrive - MSFT/PCM/01. PCMI/25. SQLs/SolicitacaoCompra.xlsx')
+    wb = xlsxwriter.Workbook('SolicitacaoCompra.xlsx')
     ws = wb.add_worksheet()
 
     r = 0
