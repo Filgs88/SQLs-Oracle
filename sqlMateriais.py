@@ -20,7 +20,7 @@ def sql_materiais():
     cursor.execute(sql)
     linhas = cursor.fetchall()
 
-    wb = xlsxwriter.Workbook('//192.168.1.177/Users/PC/OneDrive - MSFT/PCM/01. PCMI/25. SQLs/MATERIAIS.xlsx')
+    wb = xlsxwriter.Workbook('MATERIAIS.xlsx')
     ws = wb.add_worksheet()
 
     r = 0
