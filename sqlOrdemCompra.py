@@ -35,7 +35,7 @@ def sql_ordem_compra():
     cursor.execute(sql)
     linhas = cursor.fetchall()
 
-    wb = xlsxwriter.Workbook('//192.168.1.177/Users/PC/OneDrive - MSFT/PCM/01. PCMI/25. SQLs/OrdemCompra.xlsx')
+    wb = xlsxwriter.Workbook('OrdemCompra.xlsx')
     ws = wb.add_worksheet()
 
     r = 0
