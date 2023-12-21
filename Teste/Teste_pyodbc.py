@@ -4,9 +4,9 @@ import xlsxwriter
 
 con = pyodbc.connect(
     'Driver={Oracle em OraClient10g_home1};'
-    'dbq=192.168.1.12:1521/csorcl;'
-    'Uid=fatimaagro;'
-    'Pwd=A#QNK2bdJh8US;'
+    'dbq=host:port/service_name;'
+    'Uid=User ID;'
+    'Pwd=Password;'
 )
 
 cursor = con.cursor()
