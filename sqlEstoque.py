@@ -73,7 +73,7 @@ def sql_estoque_geral():
     cursor.execute(sql)
     linhas = cursor.fetchall()
 
-    wb = xlsxwriter.Workbook('//192.168.1.177/Users/PC/OneDrive - MSFT/PCM/01. PCMI/25. SQLs/MateiralEstoqueGeral.xlsx')
+    wb = xlsxwriter.Workbook('MateiralEstoqueGeral.xlsx')
     ws = wb.add_worksheet()
 
     r = 0
